@@ -9,7 +9,7 @@ dotnet new -i MonoGame.Templates.CSharp
 ```
 2) go to empty project folder in terminal and run:
 ```bash
-ddotnet new mgdesktopgl
+dotnet new mgdesktopgl
 ```
 3) run :
 ```bash
