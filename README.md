@@ -1,0 +1,13 @@
+# Monogame-template-mac
+template for monogame on mac
+
+SETUP STEPS:
+
+1) install monogame templates :  dotnet new -i MonoGame.Templates.CSharp
+2) go to empty project folder in terminal and run: ddotnet new mgdesktopgl
+3) run : dotnet run
+
+ERRORS: 
+error with installing templates: remove all packages and try again, if not, reinstall dotnet.
+
+error with finding SdL libraries: make sure SDL2 is installed, run : brew install sdl2
