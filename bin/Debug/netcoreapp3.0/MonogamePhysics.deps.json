@@ -1,0 +1,108 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MonogamePhysics/1.0.0": {
+        "dependencies": {
+          "MonoGame.Content.Builder": "3.7.0.9",
+          "MonoGame.Framework.DesktopGL.Core": "3.8.0.2",
+          "MonoGame.SDL.Helper.DesktopGL": "0.1.0"
+        },
+        "runtime": {
+          "MonogamePhysics.dll": {}
+        }
+      },
+      "MonoGame.Content.Builder/3.7.0.9": {},
+      "MonoGame.Framework.DesktopGL.Core/3.8.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Framework.dll": {
+            "assemblyVersion": "3.8.0.2",
+            "fileVersion": "3.8.0.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSDL2-2.0.so.0": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libopenal.so.1": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libSDL2-2.0.0.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libopenal.1.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/SDL2.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/soft_oal.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/SDL2.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/soft_oal.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "MonoGame.SDL.Helper.DesktopGL/0.1.0": {
+        "runtime": {
+          "lib/net45/MonoGame.SDL.Helper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MonogamePhysics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MonoGame.Content.Builder/3.7.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AAt9ns5w6c9JkZFC2UC+nB8v+kTDgRP1ONaB5lLSfzBhrGULUoNwMxiRAzi7GlPVj5yynu3PHNi8kZTOUIdF9g==",
+      "path": "monogame.content.builder/3.7.0.9",
+      "hashPath": "monogame.content.builder.3.7.0.9.nupkg.sha512"
+    },
+    "MonoGame.Framework.DesktopGL.Core/3.8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5Vsqq9lvFv4pezl+IoSnbGdFMvArUyWtehMuDx2UHirEImbxSJ0kn2u0xxbHiAazs/Gs+09aXdlRoCD3v8Xy3w==",
+      "path": "monogame.framework.desktopgl.core/3.8.0.2",
+      "hashPath": "monogame.framework.desktopgl.core.3.8.0.2.nupkg.sha512"
+    },
+    "MonoGame.SDL.Helper.DesktopGL/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q0kvxigPJXT2RHFLkNO5Liobh2Es0u1NnruShuuEu/T8JfoxnKS/DvA1mmUDAg+t+AuL8alascfiq3Xnjl+zCA==",
+      "path": "monogame.sdl.helper.desktopgl/0.1.0",
+      "hashPath": "monogame.sdl.helper.desktopgl.0.1.0.nupkg.sha512"
+    }
+  }
+}
